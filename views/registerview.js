@@ -19,7 +19,7 @@ const RegisterView = ({ navigation }) => {
 
     // Axios post request to register a new user
     axios
-      .post("http://192.168.1.190/index.php/user/register", {
+      .post("http://172.21.84.149/index.php/user/register", {
         username: username,
         password: password,
         confirm_password: confirmPassword,
@@ -31,7 +31,7 @@ const RegisterView = ({ navigation }) => {
           console.log("Registration successful");
           setUser(response.data.username);
           // Use navigation.navigate instead of navigate in React Native
-          navigation.navigate("Home");
+          navigation.navigate("Login");
         } else {
           console.error(`Registration failed. ${response.data.username}`);
         }
@@ -175,3 +175,4 @@ const styles = StyleSheet.create({
 });
 
 export default RegisterView;
+
