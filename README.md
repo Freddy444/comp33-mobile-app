@@ -13,6 +13,11 @@ The contribution for this project is:
 
 Developed a React-Native frontend that integrates with the PHP/MySQL backend from Assignment 3 via a REST API. The app allows users to manage a list of songs, performing CRUD operations. The frontend provides a user-friendly interface for database interaction.
 
+##Working Preview
+
+https://github.com/Freddy444/comp33-mobile-app/assets/99642629/6f1c64e0-ba30-4c6b-97d1-a2def08d54e2
+
+
 ## Setup and Run the Frontend
 
 1. **Clone the Repository:** 
